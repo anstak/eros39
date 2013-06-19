@@ -1,3 +1,6 @@
+require "bundler/capistrano"
+load "deploy/assets"
+
 set :application, "anstak"
 set :repository,  "git@github.com:anstak/anstak.git"
 set :scm, :git
