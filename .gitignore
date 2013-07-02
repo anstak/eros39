@@ -18,6 +18,8 @@ capybara-*.html
 .rspec
 .rvmrc
 .DS_Store
+/Gemfile.lock
+/config/database.yml
 /.bundle
 /vendor/bundle
 /log/*
